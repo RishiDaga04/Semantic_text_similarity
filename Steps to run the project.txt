@@ -1,0 +1,7 @@
+Here are the steps to follow to run the project:
+1. After extracting the zip file open the folder Final_submission_Rishi_Daga
+2. Shift+Rightclick and  then click on "Open Powershell Window here"
+3. Run the command .\script.ps1 on the powershell window
+4. After some time there will be url genrated for the local host in the powershell window.
+5. It is the api which would run on you local host
+6. the endpoint for the similarity prediction is'/sts'

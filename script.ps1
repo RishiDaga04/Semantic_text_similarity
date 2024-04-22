@@ -1,0 +1,7 @@
+python -m venv my-env
+my-env\Scripts\activate
+pip install -r requirements.txt
+python -m nltk.downloader punkt
+python -m nltk.downloader stopwords
+python -m nltk.downloader wordnet
+uvicorn main:app
